@@ -1,0 +1,20 @@
+[
+    {
+        "carbohydrates": {
+            "Bread": {
+                "brandName": "Hovis",
+                "weight": "200",
+                "unitWeight": "gram",
+                "price": "2.99",
+                "type": "wholemeals",
+                "nutrients": {
+                    "carbohydrates": {
+                        "total" : "100", 
+                        "sugars" : "200"
+                    },
+                    "fats": "200"
+                }
+            }
+        }
+    }
+]
