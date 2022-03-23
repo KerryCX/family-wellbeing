@@ -1,20 +1,95 @@
 [
-    {
-        "carbohydrates": {
-            "Bread": {
-                "brandName": "Hovis",
-                "weight": "200",
-                "unitWeight": "gram",
-                "price": "2.99",
-                "type": "wholemeals",
-                "nutrients": {
-                    "carbohydrates": {
-                        "total" : "100", 
-                        "sugars" : "200"
-                    },
-                    "fats": "200"
-                }
-            }
-        }
+  {
+    "id": 1,
+    "mainFoodCat": "carbs",
+    "foodName": "bread",
+    "brandName": "Hovis",
+    "portion": "2",
+    "weightUnits": "slices",
+    "type": "wholemeal",
+    "nutrients": {
+      "carbohydrates": {
+        "total": "17.9",
+        "sugars": "1.4"
+      },
+      "fats": {
+        "total": "200",
+        "saturates": "100",
+        "Poly": "100"
+      },
+      "fibre": "0",
+      "protein": "12",
+      "salt": "0.7"
     }
+  },
+  {
+    "id": 2,
+    "mainFoodCat": "carbs",
+    "foodName": "bread",
+    "brandName": "Hovis",
+    "portion": "2",
+    "weightUnits": "slices",
+    "type": "white",
+    "nutrients": {
+      "carbohydrates": {
+        "total": "17.9",
+        "sugars": "1.4"
+      },
+      "fats": {
+        "total": "1.4",
+        "saturates": "0.4",
+        "Poly": "1"
+      },
+      "fibre": "2",
+      "protein": "7",
+      "salt": "0.72"
+    }
+    
+  },
+  {
+    "id": 3,
+    "mainFoodCat": "copy",
+    "foodName": "deli",
+    "brandName": "NS",
+    "portion": "1",
+    "weightUnits": "slices",
+    "type": "ham",
+    "nutrients": {
+      "carbohydrates": {
+        "total": "5.0",
+        "sugars": "5.0"
+      },
+      "fats": {
+        "total": "5",
+        "saturates": "3",
+        "Poly": "2"
+      },
+      "fibre": "2.1",
+      "protein": "5.0",
+      "salt": "0.43"
+    }
+  },
+  {
+    "id": 4,
+    "mainFoodCat": "fat",
+    "foodName": "cheese",
+    "brandName": "Tesco",
+    "portion": "1",
+    "weightUnits": "30g",
+    "type": "mozzarella",
+    "nutrients": {
+      "carbohydrates": {
+        "total": "0.9",
+        "sugars": "0.3"
+      },
+      "fats": {
+        "total": "100",
+        "saturates": "90",
+        "Poly": "10"
+      },
+      "fibre": "0",
+      "protein": "3.4",
+      "salt": "0.4"
+    }
+  }
 ]
